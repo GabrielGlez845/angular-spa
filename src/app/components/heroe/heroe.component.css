@@ -1,0 +1,14 @@
+div.card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}

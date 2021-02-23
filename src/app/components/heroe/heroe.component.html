@@ -1,0 +1,12 @@
+<div class="card">
+    <h2 class="card-header">{{heroe.nombre |uppercase}} <small>{{heroe.aparicion |date: 'y'}}</small></h2>
+    <div class="card-body">
+        <img src="{{heroe.img}}" alt="Heroe">
+        <div class="desc">
+            <h5 class="card-title">{{heroe.nombre}}</h5>
+            <hr>
+            <p class="card-text">{{heroe.bio}}</p>
+        </div>
+    </div>
+    <a class="btn btn-primary " [routerLink]="['/heroes']">Volver</a>
+</div>
